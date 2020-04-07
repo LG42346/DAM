@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Calculadora Temática "</string>
+    <string name="buttonSend">Enviar</string>
+    <string name="title">Escolha o seu SO</string>
+    <string name="operand2">Operando 2</string>
+    <string name="operand1">Operando 1, (e resultado)</string>
+</resources>

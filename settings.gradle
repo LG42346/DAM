@@ -1,0 +1,2 @@
+rootProject.name='Thematic Calculator'
+include ':app'

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Thematic Calculator</string>
+    <!--
+    <string name="action_settings">Settings</string>
+    -->
+    <string name="buttonSend">Send</string>
+    <string name="buttonWinDesc" translatable="false">Windows</string>
+    <string name="buttonLinuxDesc" translatable="false">Linux</string>
+    <string name="buttonMacDesc" translatable="false">Macos</string>
+    <string name="title">Choose Your OS</string>
+    <string name="operand1">Operand 1, (And Result)</string>
+    <string name="operand2">Operand 2</string>
+    <string name="numberZero" translatable="false">0</string>
+    <string name="symbolPlus" translatable="false">+</string>
+    <string name="symbolMinus" translatable="false">-</string>
+    <string name="symbolTimes" translatable="false">*</string>
+    <string name="symbolDivide" translatable="false">/</string>
+    <string name="symbolRoot" translatable="false">√</string>
+    <string name="symbolPow" translatable="false">^</string>
+    <string name="setMem" translatable="false">->M</string>
+    <string name="getMem" translatable="false">M-></string>
+</resources>

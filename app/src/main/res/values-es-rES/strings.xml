@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Calculadora temática "</string>
+    <string name="buttonSend">Enviar</string>
+    <string name="title">Elige tu sistema operativo</string>
+    <string name="operand1">Operando 1, (y resultado)</string>
+    <string name="operand2">Operando 2</string>
+</resources>
