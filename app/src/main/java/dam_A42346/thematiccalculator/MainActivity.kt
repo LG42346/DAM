@@ -1,5 +1,7 @@
 package dam_A42346.thematiccalculator
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -7,6 +9,8 @@ import android.widget.ImageButton
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import org.w3c.dom.Text
+
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
@@ -15,6 +19,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
 
 
         val plus: Button = this.findViewById(R.id.plus)
@@ -57,6 +62,26 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             setContext(R.id.linuxIcon)
             false
         }
+
+        val git: TextView = findViewById(R.id.selectTeam)
+        git.setOnClickListener {
+            val viewIntent = Intent(
+                "android.intent.action.VIEW",
+                Uri.parse("https://github.com/LG42346/ThematicCalculator")
+            )
+            startActivity(viewIntent)
+        }
+//        gitIcon.setOnTouchListener{v, event ->
+//            val viewIntent = Intent(
+//                "android.intent.action.VIEW",
+//                Uri.parse("http://www.https://github.com/LG42346/ThematicCalculator")
+//            )
+//            startActivity(viewIntent)
+//            false
+//        }
+
+     //   val i = Intent(Intent.ACTION_VIEW, Uri.parse("http://www.example.com"))
+       // startActivity(i)
     }
 
 

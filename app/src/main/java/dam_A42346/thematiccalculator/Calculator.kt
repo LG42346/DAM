@@ -15,8 +15,8 @@ class Calculator {
         return multiplier * multiplicand
     }
 
-    fun div(dividen: Double, divisor: Double): Double {
-        return dividen / divisor
+    fun div(dividend: Double, divisor: Double): Double {
+        return dividend / divisor
     }
 
     fun root(base: Double, value: Double): Double{
